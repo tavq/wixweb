@@ -30,7 +30,7 @@ const characters = [
 const characterProfiles = {
   '진월': {
     birthName:'진매화',age:81,alias:'설매선자',realm:'현경 입문',
-    intro:['수라혈겁 이후 무너진 화산을 다시 세운 장문인.','전쟁 뒤 현경에 오르며 반로환동해 젊어졌다.','젊어진 외모를 은근히 즐기는 귀여운 허영이 있다.'],
+    intro:['화산파의 태상장로였으나 수라혈겁 이후 무너진 화산을 다시 세운 장문인.','전쟁 뒤 현경에 오르며 반로환동해 젊어졌다.','젊어진 외모를 은근히 즐기는 귀여운 허영이 있다.'],
     martial:[
       {category:'심법',icon:'cloud',techniques:[{name:'자하신공'}]},
       {category:'검법',icon:'sword',techniques:[{name:'이십사수매화검법'},{name:'매화검결'}]},
