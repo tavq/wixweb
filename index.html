@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#71364f">
+  <meta name="description" content="강호록 — 매화빛으로 물든 또 하나의 강호. 수라혈겁 이후의 세계, 세 갈래의 세력과 여덟 경지, 스물두 명의 인물 기록.">
+  <title>강호록 江湖錄 — 세계관과 인물</title>
+  <link rel="icon" href="assets/seal.svg?v=pink-03" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800;900&family=Noto+Serif+KR:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=realms-18">
+  <link rel="stylesheet" href="persona.css?v=persona-19">
+  <script src="app.js?v=correction-20" defer></script>
+  <script type="module" src="persona.js?v=correction-20"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">본문으로 바로가기</a>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+      <symbol id="icon-diagonal" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+      <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+      <symbol id="icon-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></symbol>
+      <symbol id="icon-mountain" viewBox="0 0 72 72"><path d="m8 53 19-34 10 17 8-11 19 28H8Zm13 0 16-17 16 17M21 30l6 5 5-7M43 29l4 8 4-3M8 59h56"/><circle cx="49" cy="15" r="4"/></symbol>
+      <symbol id="icon-plum" viewBox="0 0 72 72"><path d="M36 33c-20-9-12-28 0-24 12-4 20 15 0 24Zm3 2c2-22 22-20 23-7 7 10-8 23-23 7Zm-1 4c22-5 27 14 15 19-8 10-24 0-15-19Zm-4 0c10 20-7 29-16 19-12-5-8-24 16-19Zm-3-4C17 52 2 39 9 28c1-13 21-15 22 7Z"/><circle cx="36" cy="36" r="5"/></symbol>
+      <symbol id="icon-sword" viewBox="0 0 72 72"><path d="M36 7 30 20v28h12V20L36 7Zm0 5v32M24 48h24M36 48v13m-5 1h10"/><path d="m17 58 9-7m20-31 9-7M17 18l9 6m21 26 9 7" opacity=".45"/></symbol>
+      <symbol id="icon-bamboo" viewBox="0 0 72 72"><path d="M30 63 33 9M26 49h12M27 31h11M28 14h11M34 31C43 18 49 18 59 16 56 25 48 31 34 31ZM32 45C20 31 16 32 8 32c4 9 13 13 24 13ZM32 20C22 7 17 9 10 9c5 9 12 11 22 11Zm1 32c10-10 17-9 25-8-6 7-14 8-25 8Z"/></symbol>
+      <symbol id="icon-cloud" viewBox="0 0 72 72"><path d="M10 45h46a10 10 0 0 0 0-20 16 16 0 0 0-30-5 11 11 0 0 0-14 16h35a6 6 0 1 0-5-9M17 53h33m-29 8h20M11 10h13m-6-5v10"/></symbol>
+      <symbol id="icon-flame" viewBox="0 0 72 72"><path d="M38 6c4 19-14 23-7 36 5-4 8-9 7-16 19 14 25 28 10 37-12 8-31 1-31-13 0-12 6-15 9-22 0 8 1 12 5 14C22 27 29 14 38 6Z"/><path d="M36 43c7 8 12 15 0 20-10-4-8-11 0-20Z"/></symbol>
+    </defs>
+  </svg>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#world" aria-label="강호록 세계관으로">
+        <span class="brand-seal" aria-hidden="true"><svg><use href="#icon-plum"/></svg></span>
+        <span class="brand-name">강호록<small>江湖錄</small></span>
+      </a>
+      <nav class="primary-nav" aria-label="주 메뉴">
+        <a href="#world" class="nav-link is-active" data-view="world" aria-current="page"><span class="nav-index">一</span> 세계관</a>
+        <a href="#characters" class="nav-link" data-view="characters"><span class="nav-index">二</span> 인물 <span class="nav-count">22</span></a>
+        <a href="#persona" class="nav-link" data-view="persona"><span class="nav-index">三</span> 나의 강호</a>
+      </nav>
+      <span class="header-note">NEW ORIENTAL <span>— 03</span></span>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div id="world-view" class="view">
+      <section class="hero" aria-labelledby="hero-title">
+        <span class="hero-background-type" aria-hidden="true">江湖</span>
+        <div class="hero-frame" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div class="hero-content">
+          <div class="hero-folio"><span>世界之外</span><span class="tiny-line"></span><span>THE OTHER SIDE OF THE WORLD</span></div>
+          <div class="hero-copy">
+            <div class="hero-eyebrow"><span>山外有山</span><span>산 너머, 새로운 세계.</span></div>
+            <h1 id="hero-title">강호록<span class="title-stamp">江湖錄</span></h1>
+            <p class="hero-subtitle">한 걸음 밖의 세상.<br>그 안의 수많은 이야기.</p>
+            <p class="hero-caption">화산파의 남자들이 전쟁으로 다 사라진 무림에,<br>아무것도 모르는 남자 하나가 동굴에서 걸어 나온다.</p>
+            <a class="text-link hero-link" href="#world-records">세계관 펼쳐보기 <svg><use href="#icon-diagonal"/></svg></a>
+          </div>
+          <div class="hero-portal">
+            <div class="portal-ring"><div class="hero-art" role="img" aria-label="연분홍 산과 자두색 누각, 흩날리는 매화와 은은한 민트빛 물결이 어우러진 현대적인 동양풍 일러스트"></div></div>
+            <span class="portal-badge" aria-hidden="true">別有天地<span>ANOTHER WORLD</span></span>
+            <span class="portal-flower" aria-hidden="true"><svg><use href="#icon-plum"/></svg></span>
+            <span class="portal-label">풍경 너머, 강호 속으로 <span>↗</span></span>
+          </div>
+          <div class="hero-poem" aria-hidden="true"><span>江湖有緣</span><small>EVERY PATH HAS A STORY</small></div>
+        </div>
+        <div class="hero-bottom"><span>01 / WORLD & CHARACTERS</span><span class="scroll-cue">아래로 펼쳐보기 <span>↓</span></span><span>江湖錄 · 二十二人</span></div>
+      </section>
+
+      <div class="story-ribbon" aria-hidden="true"><span>山外有山</span><i>✳</i><span>하나의 강호, 스물두 개의 이야기.</span><i>✳</i><span>人外有人</span><i>✳</i><span>EXPLORE THE JIANGHU</span><i>✳</i></div>
+
+      <div class="world-index content-width" aria-label="세계관 목차">
+        <a href="#world-records" data-topic-link="overview"><span class="index-num">01</span><span><small>序章</small>세계의 개요</span><svg><use href="#icon-diagonal"/></svg></a>
+        <a href="#world-records" data-topic-link="factions"><span class="index-num">02</span><span><small>勢力</small>세력</span><svg><use href="#icon-diagonal"/></svg></a>
+        <a href="#world-records" data-topic-link="martial"><span class="index-num">03</span><span><small>武學</small>무공과 경지</span><svg><use href="#icon-diagonal"/></svg></a>
+      </div>
+
+      <section id="world-records" class="world-records content-width" aria-labelledby="records-title">
+        <div class="section-intro">
+          <div><p class="eyebrow"><span class="gold-dot"></span> 01 — WORLD</p><h2 id="records-title">이 세계를 이루는 조각들<span class="heading-period">.</span></h2></div>
+          <p class="section-description">어떤 곳인지, 누가 살아가는지, 무엇을 믿는지.<br>강호를 이해하는 세 가지 이야기.</p>
+        </div>
+        <div class="world-reader">
+          <div class="reader-nav" role="tablist" aria-label="세계관 기록">
+            <button id="topic-overview" class="topic-button is-active" data-topic="overview" role="tab" aria-selected="true" aria-controls="world-panel"><span>01</span> 세계의 개요 <b>序</b></button>
+            <button id="topic-factions" class="topic-button" data-topic="factions" role="tab" aria-selected="false" aria-controls="world-panel" tabindex="-1"><span>02</span> 세력 <b>勢</b></button>
+            <button id="topic-martial" class="topic-button" data-topic="martial" role="tab" aria-selected="false" aria-controls="world-panel" tabindex="-1"><span>03</span> 무공과 경지 <b>武</b></button>
+            <div class="reader-note"><span>江湖萬象</span><p>한 장씩 펼쳐지는<br>강호의 이야기.</p></div>
+          </div>
+          <div id="world-panel" class="reader-panel" role="tabpanel" aria-labelledby="topic-overview" tabindex="0"></div>
+        </div>
+      </section>
+
+      <section class="people-teaser" aria-labelledby="teaser-title">
+        <div class="teaser-top content-width"><div><p class="eyebrow">02 — CHARACTERS</p><h2 id="teaser-title">이 강호의 얼굴들<span class="heading-period">.</span></h2></div><a class="text-link" href="#characters">22명 모두 만나보기 <span class="circle-arrow"><svg><use href="#icon-arrow"/></svg></span></a></div>
+        <div class="teaser-body content-width"><div class="teaser-statement"><span class="teaser-hanja">人</span><p>스물두 개의 이름,<br>스물두 갈래의 인연.</p><span class="teaser-total"><strong>22</strong> 인의 기록</span></div><div id="teaser-cards" class="teaser-cards"></div></div>
+      </section>
+    </div>
+
+    <div id="characters-view" class="view" hidden>
+      <section class="roster-heading content-width" aria-labelledby="characters-title">
+        <div><p class="eyebrow"><span class="gold-dot"></span> 02 — CHARACTERS</p><h1 id="characters-title">스물두 명의 강호<span class="heading-period">.</span></h1><p>같은 세계, 다른 이야기. 당신이 만나게 될 인물들.</p></div>
+        <div class="roster-heading-art" aria-hidden="true"><span>22</span><i>人物圖鑑</i></div>
+      </section>
+      <section class="roster content-width" aria-label="인물 22명 목록">
+        <div class="roster-toolbar">
+          <div class="roster-filters" role="group" aria-label="세력 분류">
+            <button data-filter="all" aria-pressed="true" class="filter-button is-active">전체 <small>22</small></button>
+            <button data-filter="orthodox" aria-pressed="false" class="filter-button">정파 <small>16</small></button>
+            <button data-filter="unorthodox" aria-pressed="false" class="filter-button">사파 <small>04</small></button>
+            <button data-filter="demonic" aria-pressed="false" class="filter-button">마도 <small>02</small></button>
+          </div>
+          <label class="search-box"><svg aria-hidden="true"><use href="#icon-search"/></svg><span class="sr-only">인물이나 소속 검색</span><input id="character-search" type="search" placeholder="인물 · 소속 검색" autocomplete="off"></label>
+        </div>
+        <div class="roster-meta"><p>인물을 선택해 소속과 직책을 확인해 보세요.</p><span id="result-count" role="status" aria-live="polite">총 22인의 기록</span></div>
+        <div id="character-grid" class="character-grid"></div>
+        <div id="empty-state" class="empty-state" hidden><svg aria-hidden="true"><use href="#icon-search"/></svg><h2>일치하는 인물이 없습니다.</h2><p>인물 번호나 소속으로 다시 찾아보세요.</p><button id="reset-search" class="outline-button">전체 인물 보기</button></div>
+        <div class="roster-end"><span></span><i>江湖有緣</i><span></span></div>
+      </section>
+    </div>
+    <div id="persona-view" class="view" hidden>
+      <section class="persona-heading content-width" aria-labelledby="persona-title">
+        <div><p class="eyebrow"><span class="gold-dot"></span> 03 — YOUR OWN STORY</p><h1 id="persona-title">아직 쓰이지 않은,<br>당신의 강호<span class="heading-period">.</span></h1><p>어디에서 왔는지, 무엇을 지키는지.<br>몇 가지 선택으로 나만의 인물첩을 펼쳐보세요.</p></div>
+        <div class="persona-heading-mark" aria-hidden="true"><span>我</span><i>나의 강호</i><small>YOUR STORY BEGINS HERE</small></div>
+      </section>
+      <section class="persona-workspace content-width" aria-label="나의 인물 만들기">
+        <div class="persona-toolbar"><p><span>創作</span> 당신의 선택으로 채우는 한 사람의 기록</p><button type="button" class="persona-button persona-button-light" id="persona-random"><span aria-hidden="true">↻</span> 운에 맡기기</button></div>
+        <div class="persona-work-grid">
+          <div class="persona-editor">
+            <nav class="persona-steps" aria-label="인물 생성 단계"><button type="button" data-persona-step="0"><span>01</span> 이름과 소속</button><button type="button" data-persona-step="1"><span>02</span> 살아온 길</button><button type="button" data-persona-step="2"><span>03</span> 마음의 결</button></nav>
+            <form id="persona-form" novalidate><div id="persona-fields"></div><div class="persona-form-footer"><button type="button" class="persona-button persona-button-light" id="persona-previous">← 이전</button><span id="persona-step-count">01 / 03</span><button type="submit" class="persona-button persona-button-primary" id="persona-next">다음으로 →</button></div></form>
+          </div>
+          <aside class="persona-live-preview" aria-label="작성 중인 인물첩"><div id="persona-preview"></div><p class="persona-local-note">작성 중인 기록은 이 브라우저에 자동으로 보관돼요.</p></aside>
+        </div>
+        <div id="persona-result" hidden></div>
+        <p id="persona-status" class="persona-status" role="status" aria-live="polite"></p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer content-width"><a href="#world" class="footer-brand">강호록 <span>江湖錄</span></a><p>산 너머, 이야기는 계속.</p><span>PLUM BLOSSOM · DESIGN 03</span></footer>
+
+  <dialog id="character-dialog" class="character-dialog" aria-labelledby="detail-name">
+    <button class="dialog-close" id="close-dialog" aria-label="인물 소개 닫기"><svg><use href="#icon-close"/></svg></button>
+    <div class="detail-layout">
+      <div class="detail-visual"><div id="detail-portrait" class="detail-portrait"></div></div>
+      <div class="detail-content">
+        <div class="detail-label"><span>人物記錄</span><span id="detail-number"></span></div>
+        <p class="detail-alias" id="detail-alias"></p>
+        <h2 id="detail-name"></h2>
+        <div class="detail-divider"><span></span><i>◇</i><span></span></div>
+        <dl class="detail-facts" id="detail-facts"></dl>
+        <div class="detail-tabs" role="tablist" aria-label="인물 세부 기록">
+          <button id="detail-tab-intro" data-detail-tab="intro" role="tab" aria-selected="true" aria-controls="detail-tabpanel" class="is-active">소개</button>
+          <button id="detail-tab-martial" data-detail-tab="martial" role="tab" aria-selected="false" aria-controls="detail-tabpanel" tabindex="-1">무공</button>
+        </div>
+        <div id="detail-tabpanel" class="detail-tabpanel" role="tabpanel" aria-labelledby="detail-tab-intro" tabindex="0"></div>
+        <div class="detail-footer"><span id="detail-record-status">인물 기록</span><div><button id="previous-character" aria-label="이전 인물"><svg><use href="#icon-arrow"/></svg></button><span id="detail-position"></span><button id="next-character" aria-label="다음 인물"><svg><use href="#icon-arrow"/></svg></button></div></div>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
