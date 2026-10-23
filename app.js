@@ -131,7 +131,7 @@ const characterProfiles = {
     age:28,alias:'백우신혜',realm:'일류 완숙',
     intro:['궁금한 것은 장르를 가리지 않고 직접 해봐야 직성이 풀리는 호기심 덩어리.','머리는 비상하지만 그 호기심 때문에 사고를 자주 친다.'],
     martial:[
-      {category:'진법',icon:'cloud',techniques:[{name:'팔진도'},{name:'기문둔갑'}]},
+      {category:'진법',icon:'cloud',techniques:[{name:'팔진도'},{name:'기문진법'}]},
       {category:'검법',icon:'sword',techniques:[{name:'천지삼재검법'}]},
       {category:'심법',icon:'cloud',techniques:[{name:'현천신공'}]},
       {category:'경공',icon:'cloud',techniques:[{name:'팔괘보'}]},
